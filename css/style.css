@@ -1,0 +1,39 @@
+:root {
+  /* image url css variable */
+  --img_url: url('../images/clear.jpg');
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Monoton', cursive;
+  margin: auto;
+  text-shadow: 4px 4px 4px darkgray;
+}
+
+#location {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px darkgray;
+  margin-top: 35px;
+}
+
+#temperature {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px darkgray;
+  margin-top: 30px;
+}
+
+body {
+  margin-top: 30px;
+  background-image: var(--img_url), url('../images/clear.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a:link {
+  /* removing underline from the Link*/
+  text-decoration: none;
+}
